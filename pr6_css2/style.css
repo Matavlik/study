@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+#box1{
+    height: 250px;
+    width: 414px;
+
+    background-color: rgba(142, 226, 255, 0.84);
+    border: 5px solid rgb(116, 173, 207);
+
+}
+
+#box2{
+    height: 125px;
+    width: 200px;
+
+    background-color: #a6caff;
+    border: 5px solid rgb(114, 150, 197);
+    border-style: dashed;
+    border-radius: 15px;
+
+    position: relative;
+    bottom: 2px;
+}
+#box2:hover{
+    resize: block;
+}
+
+#box3{
+    height: 125px;
+    width: 200px;
+
+    background-color:  #c8a6ff;
+    border: 5px rgb(165, 114, 197);
+    border-style: double;
+    border-radius: 15px;
+    
+    margin-left: 214px;
+    top: 2px;
+}
+
+#box4{
+    height: 125px;
+    width: 200px;
+
+    background-color: #99f8d7;
+    border: 5px solid rgb(104, 175, 162);
+    border-radius: 15px;
+    border-style: dot-dash;
+
+    position: relative;
+    bottom: 135px;
+}
+
+#box5{
+    height: 125px;
+    width: 200px;
+
+    background-color: #8effff;
+    border: 5px solid rgb(111, 195, 192);
+    border-radius: 15px;
+    border-style: outset;
+
+    position: relative;
+    bottom: 407px;
+    left: 214px;
+}
+
+#box6{
+    height: 250px;
+    width: 414px;
+
+    background-color: #c5b1ff;
+    border: 5px solid rgb(160, 116, 207);
+    border-radius: 25px 300px 25px;
+
+    position: relative;
+    bottom: 270px;
+}
+
+#box7{
+    height: 250px;
+    width: 414px;
+
+    background-color: rgba(23, 23, 23, 0.9);
+    background-image: linear-gradient(#1b1b1b, #3e3e3e);
+    border-radius: 50px;
+
+    position: relative;
+    bottom: 150px;
+
+    /*box-shadow: 5px 5px 10px #1b1b1b;*/
+}
+
+#box8{
+    height: 250px;
+    width: 414px;
+
+    background-color: rgba(23, 23, 23, 0.9);
+    background-image: linear-gradient(#1b1b1b, #3e3e3e);
+    border-radius: 50px;
+
+    position: relative;
+    bottom: 150px;
+
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.box-text{
+    text-align: center;
+    padding-top: 100px;
+
+    color: aliceblue;
+    font-family:  "Bebas Neue", sans-serif;
+    font-size: 3em;
+
+}
+
+#box9{
+    height: 100px;
+    width: 414px;
+
+    background-color: rgba(228, 228, 228, 0.9);
+    border-radius: 50px;
+
+    box-shadow: inset 3px 3px 12px #1b1b1b;
+}
+
+/*#box10{
+    height: 100px;
+    width: 414px;
+
+    background-color: rgba(228, 228, 228, 0.9);
+    border-radius: 50px;
+    border: 7px solid #f5d5ff;
+    border-style: double;
+    box-shadow: inset 3px 3px 12px #e065ff;
+}*/

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.text{
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+}
+
+.box{
+    background-color: #6d9dba;
+}
+
+.container1{
+    display: grid;
+    gap: 10px;
+    margin: 20px;
+
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+    grid-template-rows: repeat(5, minmax(100px, 1fr));
+}
+
+#i1{
+    grid-column: span 3;
+}
+
+#i2{
+    grid-column: 1;
+    grid-row: 2/5;
+}
+
+#i3{
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+#i4{
+    grid-column: 3;
+    grid-row: 2/3;
+}
+
+#i5{
+    grid-column: 2/4;
+    grid-row: 4;
+}
+
+#i6{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#i7{
+    grid-area: 5/1/6/4;
+}
+
+#i8{
+    grid-area: 1/5/6/4;
+}
+
+.container2{
+    display: grid;
+    gap: 5px;
+    margin: 20px;
+
+    grid-template-rows: 75px 75px 75px;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-areas:
+            "box1 box3 box3"
+            "box4 box4 box6";
+}
+
+
+
+
+.box2{
+    border-radius: 15px;
+    min-height: 10px;
+}
+
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 5px -5px 5px #00000010;
+
+    width: 75%;
+
+}
+
+.sub_container1{
+    display: grid;
+    gap: 5px;
+    margin: 20px;
+
+    width: 50%;
+
+    grid-template-areas:
+    "header header"
+    "content sidebar"
+    "footer footer";
+}
+
+#header{
+    background-color: #6dbaa5;
+}
+
+#content{
+    background-color: #726dba;
+}
+
+#sidebar{
+    background-color: #a46dba;
+}
+
+#footer{
+    background-color: #ba6d7f;
+}
+
+.sub_container2{
+    display: grid;
+    gap: 5px;
+    width: 50%;
+
+    padding: 5px;
+    margin: 20px;
+
+    border: rgba(32, 32, 32, 0.96) 5px dashed;
+    border-radius: 15px;
+
+    grid-template-columns: repeat(5, minmax(10px, 1fr));
+    grid-template-rows: repeat(5, minmax(10px, 1fr));
+}
+
+#block1{
+    background-color: #8dbc53;
+    grid-area: 1/1/4/3;
+}
+#block2{
+    background-color: #44dc6f;
+    grid-area: 5/1/6/6;
+}
+#block3{
+    background-color: rgba(54, 190, 202, 0.9);
+}
+#block4{
+    background-color: rgba(202, 54, 200, 0.89);
+    grid-area: 2/3/2/5;
+}
+#block5{
+    background-color: #6d6eba;
+    grid-area: 3/3/3/6;
+}

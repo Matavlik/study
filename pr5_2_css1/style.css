@@ -1,0 +1,14 @@
+a:hover{
+    color: #3c61ff;
+}
+
+.hero{
+    background-image: url('b7e6c71b5ce0c2e509bad526915961fd.jpg');
+    background-position: center;
+
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
